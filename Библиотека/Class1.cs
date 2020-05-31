@@ -17,7 +17,7 @@ namespace Библиотека
                 {
                     if (c == 0)
                     {
-                        error = "R";
+                        error = "R ";
                         return new double[0];
                     }
                     else
