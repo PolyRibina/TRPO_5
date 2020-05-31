@@ -22,7 +22,7 @@ namespace Библиотека
                     }
                     else
                     {
-                        error = "Нет корней.";
+                        error = "Нет корней";
                         return new double[0];
                     }
                     
@@ -41,7 +41,7 @@ namespace Библиотека
                 ((-b - Math.Sqrt(d)) / 2 * a)
                 };
                 else if (d < 0.00000000001) {
-                    error = "Нет корней.";
+                    error = "Нет корней";
                     return new double[0];
                 }
                 else  return new double[1] { ((-b + Math.Sqrt(d)) / 2 * a) } ;
